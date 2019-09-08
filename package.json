@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
     "build-web": "webpack --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/njuics/java-2018f.git"
+    "url": "git+https://github.com/njuics/course-ios-dev.git"
   },
   "author": "",
   "license": "ISC",
@@ -17,11 +18,31 @@
     "url": "https://github.com/njuics/course-ios-dev/issues"
   },
   "homepage": "https://github.com/njuics/jcourse-ios-dev#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-include-assets-plugin": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^2.0.1",
+    "webpack": "^4.39.3",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
   "dependencies": {
-    "reveal-ga": "^0.2.0",
+    "@babel/core": "^7.6.0",
+    "highlight.js": "^9.15.10",
     "reveal.js": "^3.8.0",
-    "reveal.js-chalkboard": "^1.0.0",
     "reveal.js-menu": "^1.2.0",
-    "hexo-qiniu-sync": "^1.4.7"
+    "reveal_external": "^1.3.0",
+    "reveald3": "^1.5.4"
   }
 }
