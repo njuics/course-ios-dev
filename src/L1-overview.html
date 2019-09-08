@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>iOS概述</title>
+
+<body>
+
+  <div class="reveal">
+    <div class="slides">
+
+      <section class="title-slide">
+        <div class="huge framed bordered border-3x">
+          iOS概述
+        </div>
+      </section>
+
+      <section>
+        <div class="down-3">
+          <h2>iOS</h2>
+        </div>
+        <div class="down-9 row">
+          <div class="col-50">
+            <img src="https://developer.apple.com/ios/images/hero-ios-12-large_2x.png" />
+
+          </div>
+
+          <div class="down-3 center">
+            iOS是一个苹果公司开发的运行于iPhone、iPad和iPod Touch等移动设备上的操作系统。
+          </div>
+        </div>
+        <div class="down-3 center fragment">
+          当前版本12 </div>
+      </section>
+
+      <section>
+        <div class="down-3">
+          <h2>iOS SDK</h2>
+        </div>
+        <div class="down-9 row">
+          <div class="col-40 down-5">
+            <img src="content/images/1/sdk.png" />
+          </div>
+          <div class="col-5">
+          </div>
+          <div class="col-55">
+            iOS SDK包含开发、安装、运行和测试iOS操作系统之上的应用软件所需的工具和接口
+            <ul>
+              <li>框架（Frameworks）: 动态共享的程序库和资源</li>
+              <li>工具: Xcode集成开发环境、 模拟器和开发文档等</li>
+              <li>其他</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="down-3">
+          <h2>iOS的分层架构</h2>
+        </div>
+        <div class="down-5 row">
+          <div class="col-60">
+            <img src="content/images/1/layers.png" />
+
+          </div>
+
+          <div class="center col-40">
+            iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组定义良好的系统接口以便App可以方便与设备通讯交互
+          </div>
+        </div>
+        <div class="small down-3 center fragment">
+          这些系统接口被以框架（Frameworks）的形式交付提供给开发者使用。一个框架是一个包含了一组动态共享的程序库和相应资源(例如头文件、图片、帮助应用等) 的目录。 </div>
+      </section>
+
+      <section>
+        <div class="down-3">
+          <h2>Cocoa Touch层框架</h2>
+        </div>
+
+        <div class="down-9 row">
+          <div class="col-50">
+
+            <ul>
+              <li>Address Book UI Framework</li>
+              <li>Event Kit UI Framework</li>
+              <li>Game Kit Framework</li>
+              <li>iAd Framework</li>
+            </ul>
+          </div>
+
+          <div class="col-50">
+
+            <ul>
+              <li>Map Kit Framework</li>
+              <li>Message UI Framework</li>
+              <li>Twitter Framework</li>
+              <li><span class="strong danger">UIKit Framework</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="down-3 center">
+          构造iOS应用的核心框架
+        </div>
+      </section>
+
+
+      <section>
+        <div class="down-3">
+          <h2>UIKit 框架</h2>
+        </div>
+
+
+        <div class="down-9">
+          其中UIKit 框架(UIKit.framework) 提供了开发图形化事件驱动iOS App的基础设施，包括 </div>
+
+        <div class="down-5 row">
+          <div class="col-50">
+
+            <ul>
+              <li>基本应用管理</li>
+              <li>用户界面管理</li>
+              <li>视图控制器和视图</li>
+              <li>触摸和运动事件</li>
+            </ul>
+          </div>
+
+          <div class="col-50">
+
+            <ul>
+              <li>文档模型和iCloud集成支持</li>
+              <li>多任务、打印、通知等机制</li>
+              <li>动画效果、内容分享等</li>
+              <li>…</li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <div class="down-3">
+          <h2>Media 层框架</h2>
+        </div>
+
+        <div class="down-9 row">
+          <div class="col-50">
+
+            <ul>
+              <li>Assets Library Framework</li>
+              <li>AV Foundation Framework</li>
+              <li>Core Audio</li>
+              <li>Core Graphics Framework</li>
+              <li>Core Image Framework</li>
+              <li>Quartz Core Framework</li>
+            </ul>
+          </div>
+
+          <div class="col-50">
+
+            <ul>
+              <li>Core Text Framework</li>
+              <li>Core Video Framework</li>
+              <li>Image I/O Framework</li>
+              <li>Media Player Framework</li>
+              <li>OpenGL ES Framework</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="down-3 center">
+          包含了绘图、音频、视频处理技术的实现，用以实现iOS应用中的多媒体体验 </div>
+      </section>
+
+
+      <section>
+        <div class="down-3">
+          <h2>Core Services 层框架</h2>
+        </div>
+
+        <div class="down-9 row">
+          <div class="col-50">
+
+            <ul>
+              <li>Accounts Framework</li>
+              <li>Address Book Framework</li>
+              <li>Core Data Framework</li>
+              <li>Core Foundation Framework</li>
+              <li>Core Location Framework</li>
+            </ul>
+          </div>
+
+          <div class="col-50">
+
+            <ul>
+              <li>Core Media Framework</li>
+              <li>Core Telephony Framework</li>
+              <li>Event Kit Framework</li>
+              <li>Foundation Framework</li>
+              <li>System Configuration Framework</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="down-3 center">
+          所有App都使用的基础系统服务
+        </div>
+      </section>
+
+      <section>
+        <div class="down-3">
+          <h2>Foundation 框架</h2>
+        </div>
+
+
+        <div class="down-9">
+          Foundation framework (Foundation.framework) 提供了 Core Foundation框架中大部分功能特性的（Swift）封装
+        </div>
+        <div class="down-5 row">
+          <div class="col-50">
+
+            <ul>
+              <li>Collection data types (arrays, sets, and so on)</li>
+              <li>Bundles/String management</li>
+              <li>Date and time management</li>
+              <li>Preferences management</li>
+            </ul>
+          </div>
+
+          <div class="col-50">
+
+            <ul>
+              <li>URL and stream manipulation</li>
+              <li>Threads and run loops</li>
+              <li>Regular expression matching</li>
+              <li>…</li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <div class="down-3">
+          <h2>Core OS 层框架</h2>
+        </div>
+
+
+        <div class="down-9">
+          以上其他各项技术（框架）的实现基础
+        </div>
+        <div class="down-5 row">
+          <div class="col-50">
+
+            <ul>
+              <li>Accelerate Framework</li>
+              <li>Core Bluetooth</li>
+              <li>External Accessory Framework</li>
+              <li>Security Framework</li>
+            </ul>
+          </div>
+
+          <div class="col-50">
+
+            <ul>
+              <li>System
+                <ul>
+                  <li>Threading</li>
+                  <li>Networking</li>
+                  <li>File-system access</li>
+                  <li>Standard I/O</li>
+                  <li>Bonjour and DNS services</li>
+                  <li>Locale information</li>
+                  <li>Memory allocation</li>
+                  <li>Math computations</li>
+                  <li>…</li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+      </section>
+
+
+      <section>
+        <div class="down-3">
+          <h2>核心框架</h2>
+        </div>
+        <div class="down-5 center">
+          <img width="60%" src="content/images/1/vif.png" />
+
+        </div>
+      </section>
+
+      <section>
+          <div class="down-3">
+            <h2>开发工具－Xcode</h2>
+          </div>
+          <div class="down-9 center">
+            <img width="30%" src="https://help.apple.com/xcode/mac/10.0/en.lproj/GlobalArt/AppLanding.png" />
+          </div>
+          <div class="small center"><a href="https://help.apple.com/xcode/mac/10.0/">https://help.apple.com/xcode/mac/10.0/</a></div>
+        </section>
+
+        <section>
+            <div class="down-3">
+              <h2>Tutorial</h2>
+            </div>
+            <div class="down-9 center">
+                Start Developing iOS Apps            </div>
+            <div class="smallest center down-5"><a href="https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/">https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/</a></div>
+          </section>
+
+          <section>
+              <div class="down-3">
+                <h2>Hello World</h2>
+              </div>
+              <div class="center down-15"><a href="http://swiftplaygrounds.fun/categories/iOS/">http://swiftplaygrounds.fun/categories/iOS/</a></div>
+            </section>
+    </div> <!-- slides -->
+  </div> <!-- reveal -->
+
+</html>
